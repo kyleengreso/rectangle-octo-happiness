@@ -1,4 +1,4 @@
-def calculate_area(length, width):
+def calculate_area(length, width) -> int:
     return length * width
     
 ''''
@@ -12,7 +12,7 @@ Return
     The calculated area of the rectangle
 '''
 
-def calculate_perimeter(length, width):
+def calculate_perimeter(length, width) -> int:
    
     return 2 * (length + width)
 
